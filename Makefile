@@ -1,8 +1,11 @@
 install:
 	yarn
 
-build:
+clean:
 	rm -rf dist
+
+build:
+	clean
 	npm run build
 
 run:
@@ -10,3 +13,6 @@ run:
 
 publish:
 	npm publish
+
+lint:
+	npm run eslint
