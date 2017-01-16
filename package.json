@@ -1,0 +1,34 @@
+{
+  "name": "maxtop-hexlet-proj-lvl1",
+  "version": "1.0.0",
+  "description": "Brain Games",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --source-maps inline"
+  },
+  "bin": {
+    "max-brain-even": "./dist/bin/brain-even.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximtop/project-lvl1-s17.git"
+  },
+  "keywords": [
+    "hexlet",
+    "project",
+    "brain",
+    "games"
+  ],
+  "author": "Maxim Topciu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maximtop/project-lvl1-s17/issues"
+  },
+  "homepage": "https://github.com/maximtop/project-lvl1-s17#readme",
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-env": "1.1.8",
+    "babel-preset-stage-0": "6.16.0"
+  }
+}
