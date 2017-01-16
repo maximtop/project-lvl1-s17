@@ -6,7 +6,7 @@ build:
 	npm run build
 
 run:
-	npm run babel-node -- 'src/bin/$(G)' 10
+	npm run babel-node -- 'src/bin/brain-even.js' 10
 
 publish:
 	npm publish
