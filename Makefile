@@ -3,6 +3,7 @@ install:
 
 clean:
 	rm -rf dist
+
 build:
 	clean
 	npm run build
