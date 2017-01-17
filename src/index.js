@@ -1,3 +1,3 @@
-import brainEven from './brain-even';
+import brainGames from './brain-games';
 
-export default brainEven;
+export default brainGames;

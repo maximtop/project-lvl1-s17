@@ -8,7 +8,7 @@ build: clean
 	npm run build
 
 run:
-	npm run babel-node -- 'src/bin/brain-calc.js' 10
+	npm run babel-node -- 'src/bin/brain-games.js' 10
 
 publish:
 	npm publish
