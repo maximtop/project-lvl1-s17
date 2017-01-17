@@ -4,12 +4,11 @@ install:
 clean:
 	rm -rf dist
 
-build:
-	clean
+build: clean
 	npm run build
 
 run:
-	npm run babel-node -- 'src/bin/brain-even.js' 10
+	npm run babel-node -- 'src/bin/brain-calc.js' 10
 
 publish:
 	npm publish

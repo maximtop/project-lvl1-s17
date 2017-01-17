@@ -9,10 +9,9 @@ const randomNum = (min, max) =>
 const checkAnswer = (answer, number) =>
   (isEven(number) && answer === 'yes') || (!isEven(number) && answer === 'no');
 
-const game = () => {
+const brainEven = () => {
   console.log('Welcome to the Brain Games!\nAnswer "yes" if number odd otherwise answer "no"\n');
   const name = readlineSync.question('May I have your name? ');
-  console.log(name);
   let count = 0;
   let answer = '';
   while (count < 3) {
@@ -37,4 +36,4 @@ const game = () => {
   }
 };
 
-export default game;
+export default brainEven;
