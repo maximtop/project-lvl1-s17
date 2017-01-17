@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import randomNum from './utils/randomNum';
+import randomNum from './utils/random-num';
 
 const max = 10;
 const min = 1;
