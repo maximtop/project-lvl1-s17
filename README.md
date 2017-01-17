@@ -11,4 +11,4 @@ npm install -g maxtop-hexlet-proj-lvl1
 
 ####run in terminal 
 
-max-brain-even
+max-brain
