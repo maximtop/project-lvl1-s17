@@ -1,6 +1,6 @@
 {
   "name": "maxtop-hexlet-proj-lvl1",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Brain Games",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,9 @@
     "eslint": "eslint --ext=js src"
   },
   "bin": {
-    "max-brain": "./dist/bin/brain-games.js"
+    "brain-calc": "./dist/bin/brain-calc.js",
+    "brain-even": "./dist/bin/brain-even.js",
+    "brain-gcd": "./dist/bin/brin-even.js"
   },
   "repository": {
     "type": "git",
