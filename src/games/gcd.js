@@ -20,9 +20,7 @@ const getGame = () => {
   return [gameQuestion, gameAnswer, isRightGameInput];
 };
 
-const brainGcd = () => {
+export default () => {
   const gameDescription = 'Find the greatest common divisor of given numbers.';
   return brainGames(gameDescription, getGame);
 };
-
-export default brainGcd;

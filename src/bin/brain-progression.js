@@ -1,3 +1,5 @@
-/**
- * Created by maxim on 20.01.17.
- */
+#!/usr/bin/env node
+
+import brainProgression from '../games/progression';
+
+brainProgression();
