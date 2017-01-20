@@ -1,8 +1,8 @@
 import { isInteger, getRandomNumber } from '../utils';
 import brainGames from '../brain-games';
 
-const max = 10;
 const min = 1;
+const max = 10;
 
 const getRandomOperator = () => {
   const operators = ['+', '-', '*', '/'];

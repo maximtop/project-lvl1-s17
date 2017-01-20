@@ -1,8 +1,8 @@
 import { isInteger, getRandomNumber } from '../utils';
 import brainGames from '../brain-games';
 
-const max = 100;
 const min = 1;
+const max = 100;
 
 const getGcd = (num1, num2) => {
   if (num2) {
