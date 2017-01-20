@@ -9,7 +9,10 @@ const isRightGameInput = answer => answer === 'yes' || answer === 'no';
 const isPrime = (number) => {
   let start = 2;
   while (start <= Math.sqrt(number)) {
-    if (number % start++ < 1) return false;
+    if (number % start < 1) {
+      return false;
+    }
+    start += 1;
   }
   return number > 1;
 };
