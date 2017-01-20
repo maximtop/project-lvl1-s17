@@ -34,9 +34,7 @@ const getGame = () => {
   return [gameQuestion, gameAnswer, isRightGameInput];
 };
 
-const brainBalance = () => {
+export default () => {
   const gameDescription = 'Balance the given number.';
   brainGames(gameDescription, getGame);
 };
-
-export default brainBalance;

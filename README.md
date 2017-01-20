@@ -9,6 +9,11 @@
 
 npm install -g maxtop-hexlet-proj-lvl1
 
-####run in terminal 
+####in order to launch game type in terminal
 
-max-brain
+1. brain-balance
+2. brain-calc
+3. brain-even
+4. brain-gcd
+5. brain-prime
+6. brain-progression
