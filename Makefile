@@ -8,7 +8,7 @@ build: clean
 	npm run build
 
 run:
-	npm run babel-node -- 'src/bin/brain-gcd.js' 10
+	npm run babel-node -- 'src/bin/brain-progression.js' 10
 
 publish:
 	npm publish

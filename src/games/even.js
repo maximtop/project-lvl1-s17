@@ -12,9 +12,7 @@ const getGame = () => {
   return [gameQuestion, gameAnswer, isRightGameInput];
 };
 
-const brainEven = () => {
+export default () => {
   const gameDescription = 'Answer "yes" if number is even otherwise answer "no"';
   brainGames(gameDescription, getGame);
 };
-
-export default brainEven;
