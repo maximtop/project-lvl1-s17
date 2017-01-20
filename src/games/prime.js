@@ -1,6 +1,9 @@
 import { getRandomNumber } from '../utils';
 import brainGames from '../brain-games';
 
+const min = 1;
+const max = 100;
+
 const isRightGameInput = answer => answer === 'yes' || answer === 'no';
 
 const isPrime = (number) => {
@@ -12,7 +15,7 @@ const isPrime = (number) => {
 };
 
 const getGame = () => {
-  const gameQuestion = getRandomNumber(1, 100);
+  const gameQuestion = getRandomNumber(min, max);
   const gameAnswer = isPrime(gameQuestion) ? 'yes' : 'no';
   return [gameQuestion, gameAnswer, isRightGameInput];
 };

@@ -1,8 +1,8 @@
 import { isInteger, getRandomNumber } from '../utils';
 import brainGames from '../brain-games';
 
-const max = 1;
-const min = 10;
+const min = 1;
+const max = 10;
 const seqLength = 10;
 
 const isRightGameInput = answer => isInteger(parseInt(answer, 10));
